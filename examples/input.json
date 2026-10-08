@@ -1,0 +1,96 @@
+{
+  "project": "Coffee Shop Mobile App MVP",
+  "items": [
+    {
+      "id": "CS-01",
+      "name": "User Account & Authentication",
+      "category": "must",
+      "effort": 7.0,
+      "description": "Secure sign-up, sign-in, and profile storage for payment and transaction safety."
+    },
+    {
+      "id": "CS-02",
+      "name": "Menu Browsing & Item Customization",
+      "category": "must",
+      "effort": 8.0,
+      "description": "View beverage & bakery menu with milk, syrup, and temperature customization."
+    },
+    {
+      "id": "CS-03",
+      "name": "Order Placement & In-App Payment",
+      "category": "must",
+      "effort": 8.0,
+      "description": "Stripe/Apple Pay checkout to submit and process customer orders."
+    },
+    {
+      "id": "CS-04",
+      "name": "Real-time Order Status & Pickup Tracking",
+      "category": "must",
+      "effort": 5.0,
+      "description": "Order progression screen (Received, Preparing, Ready for pickup)."
+    },
+    {
+      "id": "CS-05",
+      "name": "Saved Favorite Orders & Quick Reorder",
+      "category": "should",
+      "effort": 4.0,
+      "description": "1-click reorder of past combinations to accelerate daily morning rush."
+    },
+    {
+      "id": "CS-06",
+      "name": "Store Locator with Live Hours & Directions",
+      "category": "should",
+      "effort": 4.0,
+      "description": "Map-based store finder showing distance and current operating status."
+    },
+    {
+      "id": "CS-07",
+      "name": "Digital Receipt via In-App View & Email",
+      "category": "should",
+      "effort": 3.0,
+      "description": "Automated receipt delivery for order confirmation and accounting."
+    },
+    {
+      "id": "CS-08",
+      "name": "Loyalty Points & Rewards Tracker",
+      "category": "could",
+      "effort": 5.0,
+      "description": "Earn 10 stars per coffee to unlock free drinks; non-critical for MVP transaction flow."
+    },
+    {
+      "id": "CS-09",
+      "name": "Custom Tip Amount for Barista",
+      "category": "could",
+      "effort": 3.0,
+      "description": "Preset percentage or custom tip options during checkout."
+    },
+    {
+      "id": "CS-10",
+      "name": "Dark Mode & Accessibility Font Scaling",
+      "category": "could",
+      "effort": 3.0,
+      "description": "System-matched dark theme and WCAG typography sizing."
+    },
+    {
+      "id": "CS-11",
+      "name": "Curbside Geofenced Vehicle Pickup Detection",
+      "category": "wont",
+      "effort": 8.0,
+      "description": "GPS trigger notifying staff when customer vehicle enters parking lot."
+    },
+    {
+      "id": "CS-12",
+      "name": "Social Beverage Gifting via Messaging Links",
+      "category": "wont",
+      "effort": 5.0,
+      "description": "Send a coffee coupon to a friend via WhatsApp or iMessage."
+    },
+    {
+      "id": "CS-13",
+      "name": "AI Barista Flavor Recommender",
+      "category": "wont",
+      "effort": 13.0,
+      "description": "LLM-powered conversational drink suggestion based on weather and mood."
+    }
+  ]
+}
